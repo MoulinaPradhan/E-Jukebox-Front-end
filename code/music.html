@@ -1,0 +1,667 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <!-- Applying fevicon  -->
+    <link rel="shortcut icon" type="image/x-icon" href="../pics/fevicon/title picture.png">
+
+    <!-- the main css file for styling -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- i've done desktop first approach -->
+    <!-- the css file for the responsive tags -->
+    <link rel="stylesheet" type="text/css" href="response.css">
+
+
+    <!-- font awesome to use the icons -->
+    <script src="https://kit.fontawesome.com/fcd0abd5e3.js" crossorigin="anonymous"></script>
+
+    <title>Music player</title>
+ </head>
+ <body>
+     <!-- This is the Navigation bar -->
+     <nav class="navigation-bar">
+
+         <!-- The title box in the left corner -->
+        <div class="title-combo">
+            <div class="music_icon">
+                <img src="../pics/logo/pngwing.com .png">
+            </div>
+            <div class="music_name">
+                <h1>E-Jukebox</h1>
+                <h4 style="color: #909097;" >Online Music Player</h4>
+            </div>
+           
+        </div>
+
+
+        <!-- The blinking text -->
+        <div class="moto">
+            <h1>
+               <span> Anytime-Anywhere
+                </span>
+            </h1>
+            </div>
+
+
+            <!-- Search-box which expands -->
+            <div class="search-box">
+                <input class="search-text" type="text" name="" placeholder="Type to Search">
+                <a class="search-button" href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i> 
+                </a>
+            </div>
+
+
+            <!-- the user logo -->
+            <div class="user">
+               <a href="#"> <img src="../pics/user/user.png"></a>
+            </div>
+
+
+     </nav>
+     <main>
+        <!-- The main part is divided into 2 parts using aside tags -->
+        <aside class="main-section">
+            <div class="outer-carousel">
+                <div class="carousel">
+                    <!-- these are the 3 images in the carousel -->
+                    <img src="../pics/cover effects pic/gymwtmkyqq8lhwea.D.0.Pre-CBS-Fender-Stratocaster-Headstock-Head-Strings-and-Tuners-Black-and-White-Music-Desktop-HD-Wallpaper-1032x774-www.greatguitarsound.blogspot.com.jpg">
+                    <img src="../pics/cover effects pic/peope dacing.jpg">
+
+                    <img src="../pics/cover effects pic/DJ2.jpg">
+
+                </div>
+            </div>
+
+            <!-- Latest Release -->
+            <div class="latest-release">
+                <h1 style="margin-bottom: 12px;  font-size:28px; ">
+                    All Time Favourite
+                </h1>
+                <hr>
+
+                <!-- These are the contents and they have a common css class "cards" -->
+                <div class="LR-content">
+
+                    <!-- the first card -->
+                 <div class="card">
+                     <img src="../pics/latest-release/gif/play-button-in-pure-css.gif">
+                     <div>
+                        <img src="../pics/latest-release/card-pics/tujhe kitna .jpg">
+                     </div>
+                     <div class="song-description">
+                        <h2>Tujhe Kitna Cahne lage humm</h2>
+                        <p>Singer:- Jubin Nautyal</p>
+                     </div>
+                 </div>
+
+                 <!-- the second card -->
+                 <div class="card">
+                    <img src="../pics/latest-release/gif/play-button-in-pure-css.gif">
+                    <div>
+                       <img src="../pics/latest-release/card-pics/numb.jpg">
+                    </div>
+                    <div class="song-description">
+                       <h2>NUMB</h2>
+                       <p>Singer:- Chester Bennington</p>
+                    </div>
+                </div>
+
+                <!-- the third card -->
+                <div class="card">
+                    <img src="../pics/latest-release/gif/play-button-in-pure-css.gif">
+                    <div>
+                       <img src="../pics/latest-release/card-pics/dil ibadat.jpg">
+                    </div>
+                    <div class="song-description">
+                       <h2>Dil Ibadat</h2>
+                       <p>Singer:- KK & Pritam Chakraborty</p>
+                    </div>
+                </div>
+
+                  <!-- the forth card -->
+                  <div class="card">
+                    <img src="../pics/latest-release/gif/play-button-in-pure-css.gif">
+                    <div>
+                       <img src="../pics/latest-release/card-pics/off.jpg">
+                    </div>
+                    <div class="song-description">
+                       <h2>OFF</h2>
+                       <p>Singer:- Villen</p>
+                    </div>
+                </div>
+
+                    <!-- the fifth card -->
+                    <div class="card">
+                        <img src="../pics/latest-release/gif/play-button-in-pure-css.gif">
+                        <div>
+                           <img src="../pics/latest-release/card-pics/havan.jpg">
+                        </div>
+                        <div class="song-description">
+                           <h2>Havana</h2>
+                           <p>Singer:- Camila Cabelo</p>
+                        </div>
+                    </div>
+
+                       <!-- the sixth card -->
+                       <div class="card">
+                        <img src="../pics/latest-release/gif/play-button-in-pure-css.gif">
+                        <div>
+                           <img src="../pics/latest-release/card-pics/bad guy.jpg">
+                        </div>
+                        <div class="song-description">
+                           <h2>Bad Guy</h2>
+                           <p>Singer:- Billie Eilish</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+             <!-- Popular artist -->
+
+             <div class="popular-artist">
+                 <!-- the title -->
+                <h1 style="margin-bottom: 12px;  font-size:28px; ">
+                    Popular Artist
+                </h1>
+                <hr>
+                
+                <!-- The Content of the popular artist -->
+
+                <!-- Each artist when clicked will take us to the playlist page -->
+                <div class="popular-artist-content">
+
+                    <!-- First artist -->
+
+                    <!-- link to the playlist page -->
+                    <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/jubin-nautiyal-singer.jpg">
+                        <p>Jubin Nautyal</p>
+                    </a>
+
+                      <!-- second artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/arijit.jpg">
+                        <p>Arijit Singh</p>
+                    </a>
+
+                      <!-- third artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/billie.jpeg">
+                        <p>Billie Eilish</p>
+                    </a>
+
+                      <!-- FORTH artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/bts.jpg">
+                        <p>BTS</p>
+                    </a>
+
+                      <!-- Fifth artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/ed.jpg">
+                        <p>Ed Sheren</p>
+                    </a>
+
+                      <!-- Sixth artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/Eminem-secondary-image.jpg">
+                        <p>Eminem</p>
+                    </a>
+
+                      <!-- Seventh artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/guru.jpg">
+                        <p>Guru Randhawa</p>
+                    </a>
+
+                      <!-- Eight artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/justin.jpg">
+                        <p>Justin Beiber</p>
+                    </a>
+
+                      <!-- Ninth artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/kate.jpg">
+                        <p>Kate Perry</p>
+                    </a>
+
+                      <!-- tenth artist -->
+                      <a href="../../playlist-screen/code/playlist-screen.html">
+                        <img src="../pics/popular Artist/drake.jpg">
+                        <p>Drake</p>
+                    </a>
+
+                        <!-- Eleventh artist -->
+                        <a href="../../playlist-screen/code/playlist-screen.html">
+                            <img src="../pics/popular Artist/popon.webp">
+                            <p>Popon</p>
+                        </a>
+                     </div>
+             </div>
+
+
+
+             <!-- The genre -->
+             <div class="genre">
+                 <div class="outer-div">
+                     <div class="inner-div">
+                        <span>SAD</span> 
+                     </div>
+                 </div>
+
+                 <div class="outer-div">
+                    <div class="inner-div">
+                       <!-- <span>CHILL</span>  -->
+                    </div>
+                </div>
+
+                <div class="outer-div">
+                    <div class="inner-div">
+                       <span>LOVE</span> 
+                    </div>
+                </div>
+             </div>
+
+
+             <!-- Latest English -->
+             <div class="language  english">
+                 <h1 class="language-heading">
+                     Latest English
+                 </h1>
+                 <hr>
+                 <div class="language-content">
+                     <div>
+                        <img src="../pics/latest english/bieber-yummy.jpg">
+                        <p>YUMMY</p>
+                        <p>Justin Beiber</p>
+                     </div>
+
+                     <div>
+                        <img src="../pics/latest english/Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_(Official_Single_Cover).png">
+                        <p>DESPACITO</p>
+                        <p>Luis_Fonsi_Feat._Daddy_Yankee</p>
+                     </div>
+
+                     <div>
+                        <img src="../pics/latest english/memories.jpg">
+                        <p>MEMORIES</p>
+                        <p>Maroon 5</p>
+                     </div>
+
+                     <div>
+                        <img src="../pics/latest english/one-direction-what-makes-you-beautiful-music-video.png">
+                        <p>WHAT MAKES YOU BEAUTIFUL</p>
+                        <p>One Direction</p>
+                     </div>
+
+                     <div>
+                        <img src="../pics/latest english/shape of you.jpg">
+                        <p>SHAPE OF YOU</p>
+                        <p>Ed Sheren</p>
+                     </div>
+
+                     <div>
+                        <img src="../pics/latest english/swalalalala.jpg">
+                        <p>SWALALALA</p>
+                        <p>Jason Derulo</p>
+                     </div>
+
+                 </div>
+             </div>
+         
+
+             
+             <!-- Latest HINDI -->
+             <div class="language hindi">
+                <h1 class="language-heading">
+                    Latest Hindi
+                </h1>
+                <hr>
+                <div class="language-content">
+                    <div>
+                       <img src="../pics/latest hindi/chhichhore-khairiyat-main.jpg">
+                       <p>KHAIRIYAT</p>
+                       <p>Arijit Singh</p>
+                    </div>
+
+                    <div>
+                       <img src="../pics/latest hindi/dil bechara.jpg">
+                       <p>DIL BECHARA</p>
+                       <p>Luis_Fonsi_Feat._Daddy_Yankee</p>
+                    </div>
+
+                    <div>
+                       <img src="../pics/latest hindi/filhal.webp">
+                       <p>FILHAL</p>
+                       <p>B Praak</p>
+                    </div>
+
+                    <div>
+                       <img src="../pics/latest hindi/kaise hua.webp">
+                       <p>KAISE HUA</p>
+                       <p>vishal Mishra</p>
+                    </div>
+
+                    <div>
+                       <img src="../pics/latest hindi/pachtaoge.jpg">
+                       <p>PACHTAOGE</p>
+                       <p>Arijit Singh</p>
+                    </div>
+
+                    <div>
+                       <img src="../pics/latest hindi/teri mitti.jpg">
+                       <p>TERI MITTI</p>
+                       <p>B Praak</p>
+                    </div>
+
+                </div>
+            </div>
+        </aside>
+
+        <!-- ................................The main(aside 1)part end here................................ -->
+
+
+        <!--............................ ..........the aside2 starts here ...........................-->
+        <aside class="playlist">
+
+            <!-- The playlist logo in which animation is used for neon sign -->
+            <div class="playlist-heading">
+                <h1>
+                    <span>P</span>
+                    <span>l</span>
+                    <span>a</span>
+                    <span>y</span>
+                    <span>l</span>
+                    <span>i</span>
+                    <span>s</span>
+                    <span>t</span>
+
+
+                </h1>
+            </div>
+            
+            
+
+            <div class="playlist-content">
+                <div class="playlist-item">
+                 <!-- all the items have same music-info and coverer class -->
+                 <!-- There are 12 list item -->
+                 
+                    <div class="music-info">
+                        <div style="margin-right: 10px;margin-left: 29px;">
+                            01
+                        
+                        </div>
+                        <div class="coverer">
+                            <!-- coverer class is for those items which when hovered will show an effect -->
+                            <!-- in this effect, when the user hovers on the item, it will show black background -->
+                            <img src="../pics/playlist/in the end.jpg">
+                          </div>
+                        <div class="info">
+                           <h1>In The End</h1>
+                           <span>Linkin park</span>
+                           <p>4:20</p>
+                             </div>
+                        </div>
+
+                        <div class="music-info">
+                            <div style="margin-right: 10px;margin-left: 29px;">
+                                02
+                            
+                            </div>
+                            <div class="coverer">
+                                <!-- coverer class is for those items which when hovered will show an effect -->
+                                <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                <img src="../pics/playlist/Katy-Perry.jpg">
+                              </div>
+                            <div class="info">
+                               <h1>Dark Horse</h1>
+                               <span>Katy Perry</span>
+                               <p>3:20</p>
+                                 </div>
+                            </div>
+
+                        
+                            <div class="music-info">
+                                <div style="margin-right: 10px;margin-left: 29px;">
+                                    03
+                                
+                                </div>
+                                <div class="coverer">
+                                    <!-- coverer class is for those items which when hovered will show an effect -->
+                                    <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                    <img src="../pics/playlist/Sanam-re-2016dvdplanetstorepk.jpg">
+                                  </div>
+                                <div class="info">
+                                   <h1>Sanam Re</h1>
+                                   <span>Arijit Singh</span>
+                                   <p>3:40</p>
+                                     </div>
+                                </div>
+
+
+                                <div class="music-info">
+                                    <div style="margin-right: 10px;margin-left: 29px;">
+                                        04
+                                    
+                                    </div>
+                                    <div class="coverer">
+                                        <!-- coverer class is for those items which when hovered will show an effect -->
+                                        <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                        <img src="../pics/playlist/beliver.jpg">
+                                      </div>
+                                    <div class="info">
+                                       <h1>Beliver</h1>
+                                       <span>Imagine Dragons</span>
+                                       <p>3:20</p>
+                                         </div>
+                                    </div>
+
+                                    <div class="music-info">
+                                        <div style="margin-right: 10px;margin-left: 29px;">
+                                            05
+                                        
+                                        </div>
+                                        <div class="coverer">
+                                            <!-- coverer class is for those items which when hovered will show an effect -->
+                                            <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                            <img src="../pics/playlist/broken dreams.jpg">
+                                          </div>
+                                        <div class="info">
+                                           <h1>Boulevard of Broken Dreams</h1>
+                                           <span>Green Day</span>
+                                           <p>4:20</p>
+                                             </div>
+                                        </div>
+
+                                        <div class="music-info">
+                                            <div style="margin-right: 10px;margin-left: 29px;">
+                                                06
+                                            
+                                            </div>
+                                            <div class="coverer">
+                                                <!-- coverer class is for those items which when hovered will show an effect -->
+                                                <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                                <img src="../pics/playlist/imaginay.jpg">
+                                              </div>
+                                            <div class="info">
+                                               <h1>Imaginary Girlfriend</h1>
+                                               <span>Imraan Khan</span>
+                                               <p>4:20</p>
+                                                 </div>
+                                            </div>
+
+                                            <div class="music-info">
+                                                <div style="margin-right: 10px;margin-left: 29px;">
+                                                    07
+                                                
+                                                </div>
+                                                <div class="coverer">
+                                                    <!-- coverer class is for those items which when hovered will show an effect -->
+                                                    <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                                    <img src="../pics/playlist/khair magdi.webp">
+                                                  </div>
+                                                <div class="info">
+                                                   <h1>Khair Mangdi</h1>
+                                                   <span>Bilaal Saeed</span>
+                                                   <p>3:20</p>
+                                                     </div>
+                                                </div>
+
+                                                <div class="music-info">
+                                                    <div style="margin-right: 10px;margin-left: 29px;">
+                                                        08
+                                                    
+                                                    </div>
+                                                    <div class="coverer">
+                                                        <!-- coverer class is for those items which when hovered will show an effect -->
+                                                        <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                                        <img src="../pics/playlist/perfect.jpg">
+                                                      </div>
+                                                    <div class="info">
+                                                       <h1>Perfect</h1>
+                                                       <span>Ed Sheren</span>
+                                                       <p>2:20</p>
+                                                         </div>
+                                                    </div>
+
+                                                    
+                                                <div class="music-info">
+                                                    <div style="margin-right: 10px;margin-left: 29px;">
+                                                        09
+                                                    
+                                                    </div>
+                                                    <div class="coverer">
+                                                        <!-- coverer class is for those items which when hovered will show an effect -->
+                                                        <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                                        <img src="../pics/playlist/qismat.jpg">
+                                                      </div>
+                                                    <div class="info">
+                                                       <h1>Qismat</h1>
+                                                       <span>Jani</span>
+                                                       <p>4:20</p>
+                                                         </div>
+                                                    </div>
+
+                                                    
+                                                <div class="music-info">
+                                                    <div style="margin-right: 10px;margin-left: 29px;">
+                                                        10
+                                                    
+                                                    </div>
+                                                    <div class="coverer">
+                                                        <!-- coverer class is for those items which when hovered will show an effect -->
+                                                        <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                                        <img src="../pics/playlist/seniorita.jpg">
+                                                      </div>
+                                                    <div class="info">
+                                                       <h1>Seniorita</h1>
+                                                       <span>Camila Cabello</span>
+                                                       <p>4:20</p>
+                                                         </div>
+                                                    </div>
+
+                                                    
+                                                <div class="music-info">
+                                                    <div style="margin-right: 10px;margin-left: 29px;">
+                                                        11
+                                                    
+                                                    </div>
+                                                    <div class="coverer">
+                                                        <!-- coverer class is for those items which when hovered will show an effect -->
+                                                        <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                                        <img src="../pics/playlist/shakira-waka-waka-vid-2010-billboard-650-compressed.jpg">
+                                                      </div>
+                                                    <div class="info">
+                                                       <h1>Waka Waka</h1>
+                                                       <span>Shakira</span>
+                                                       <p>4:20</p>
+                                                         </div>
+                                                    </div>
+
+                                                    
+                                                <div class="music-info">
+                                                    <div style="margin-right: 10px;margin-left: 29px;">
+                                                        12
+                                                    
+                                                    </div>
+                                                    <div class="coverer">
+                                                        <!-- coverer class is for those items which when hovered will show an effect -->
+                                                        <!-- in this effect, when the user hovers on the item, it will show black background -->
+                                                        <img src="../pics/playlist/thunder.jpg">
+                                                      </div>
+                                                    <div class="info">
+                                                       <h1>Thunder</h1>
+                                                       <span>Imagine Dragons</span>
+                                                       <p>4:20</p>
+                                                         </div>
+                                                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+     </main>
+
+
+     <!-- ...............................................the footer/music player........................................... -->
+     <footer>
+        <!-- This is divided into 3 parts -->
+        
+        <!-- first part -->
+        <div class="active-song">
+            <!-- image part -->
+            <div class="song-image">
+                <img src="../pics/player pics/memories.jpg">
+            </div>
+            <!-- song description -->
+            <div class="song-des">
+                <div>MEMORIES</div>
+                <div>Maroon 5</div>
+            </div>
+            <div class="song-icon">
+                <span><i class="fa fa-heart" aria-hidden="true"></i></span>
+                <span><i class="fa fa-ban" aria-hidden="true"></i></span>
+            </div>
+        </div>
+
+        <!-- The Second part -->
+        <div class="player">
+            
+            <div class="controls"> 
+            <div><i class="fa fa-random" aria-hidden="true"></i></div>
+            <div><i class="fa fa-step-backward" aria-hidden="true"></i></div>   
+            <div><i class="fa fa-pause" aria-hidden="true"></i></div> 
+            <div><i class="fa fa-step-forward" aria-hidden="true"></i></div>
+            <div><i class="fa fa-repeat" aria-hidden="true"></i></div>
+            </div>
+        
+
+         <div id="slider">
+            <div class="time">
+                1:39
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+            </div>
+            <div class="time">
+                4:44
+            </div>
+         </div>
+    </div>
+
+       <!-- Third part -->
+       <div class="extras">
+        <div><i class="fa fa-list-ul" aria-hidden="true"></i></div>
+        <div><i class="fa fa-laptop" aria-hidden="true"></i></div>
+        <div> <i class="fa fa-volume-up" aria-hidden="true"></i></div>
+        <div class="slidecontainer" style="width:30%;">
+            <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+        </div>
+        <div><i class="fa fa-expand" aria-hidden="true"></i></div>
+       
+    </div>
+     </footer>
+ </body>
+ </html>
